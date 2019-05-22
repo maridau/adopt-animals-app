@@ -41,32 +41,55 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="list.html"><img src="assets/icons/ico-home.png" width="50" height="50"
-                class="d-inline-block align-center" alt="Inicio">ANIMALES PARA ADOPCIÓN</a>
-            </li>
+                class="d-inline-block align-center" alt="Inicio"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="new-animal.html"><img src="assets/icons/ico-dog.png" width="50" height="50"
+                class="d-inline-block align-center" alt="Perros"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="new-animal.html"><img src="assets/icons/ico-cat.png" width="50" height="50"
+                class="d-inline-block align-center" alt="Gatos"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="assets/icons/ico-food.png" width="50" height="50"
+                class="d-inline-block align-center" alt="Alimentos"></a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="new-animal.html"><img src="assets/icons/ico-new.png" width="50" height="50"
-                class="d-inline-block align-center" alt="Nuevo animal">INGRESAR ANIMAL</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="favoritos.html"><img src="assets/icons/ico-love.png" width="50" height="50"
-                class="d-inline-block align-center" alt="Favoritos">FAVORITOS</a>
+                class="d-inline-block align-center" alt="Nuevo animal"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html"><img src="assets/icons/ico-blog.png" width="50" height="50"
-                class="d-inline-block align-center" alt="Favoritos">BLOG</a>
+            <a class="nav-link" href="#"><img src="assets/icons/ico-love.png" width="50" height="50"
+                class="d-inline-block align-center" alt="Favoritos"></a>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn my-2 my-sm-0 btn-buscar" type="submit"><a class="" href="#"><img
+                src="assets/icons/ico-search.png" width="50" height="50" class="d-inline-block align-top"
+                alt="Buscar"></a></button>
+        </form>
       </div>
     </nav>
   </header>
 
 
-  <main>
+  <main role="main">
 
     <section>
-      <div class="container">
-        <form class="">
+<div class="jumbotron">
+    <h1>Encontrá tu mascota aquí</h1>
+    <p class="parrafo-buscar">Adoptar no es comprar, no somos una tienda, adoptar es añadir un nuevo miembro a tu
+      familia, único, con su
+      físico, su personalidad y su historia.</p>
+</div>
+
+    </section>
+
+    <section id="buscador-animales">
+      <div class="container form-container-buscar">
+        <form class="form-group">
 
           <h1>Encontrá tu mascota aquí</h1>
           <p class="parrafo-buscar">Adoptar no es comprar, no somos una tienda, adoptar es añadir un nuevo miembro a tu
@@ -180,7 +203,7 @@
             </div>
 
             <div class="form-group col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <button type="submit" class="btn btn-primary">Buscar</button>
+              <button type="submit" class="btn btn-buscar">Buscar</button>
             </div>
       </div>
       </fieldset>
@@ -191,9 +214,12 @@
     </section>
 
     <section id="listado-animales">
+
+      <div class="album py-5">
         <div class="container">
+
           <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <img class="img-animal" src="assets/p1.jpeg" alt="" title="" />
                 <div class="card-body">
@@ -219,152 +245,23 @@
               </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card mb-4 shadow-sm">
-                  <img class="img-animal" src="assets/p2.jpg" alt="" title="" />
-                  <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center">
-  
-                      <div class="card-title">Sultán</div>
-  
-                      <small class="text-muted"><img src="assets/icons/ico-dog.png" width="70" height="70"
-                          class="d-inline-block align-right" alt="Dog"></small>
-                    </div>
-  
-                    <p class="card-text">Labrador</p>
-                    <p class="card-text">Macho</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="">
-                        <button type="button" class="btn btn-ver">Lo quiero conocer</button>
-                      </div>
-                      <small class="text-muted"><button type="button" class="btn btn-love"><img
-                            src="assets/icons/ico-love.png" width="30" height="30" class="d-inline-block align-center"
-                            alt="Favoritos"></button></small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                  <div class="card mb-4 shadow-sm">
-                    <img class="img-animal" src="assets/g2.jpg" alt="" title="" />
-                    <div class="card-body">
-                      <div class="d-flex justify-content-between align-items-center">
-    
-                        <div class="card-title">Silvestre</div>
-    
-                        <small class="text-muted"><img src="assets/icons/ico-cat.png" width="70" height="70"
-                            class="d-inline-block align-right" alt="Cat"></small>
-                      </div>
-    
-                      <p class="card-text">Labrador</p>
-                      <p class="card-text">Macho</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="">
-                          <button type="button" class="btn btn-ver">Lo quiero conocer</button>
-                        </div>
-                        <small class="text-muted"><button type="button" class="btn btn-love"><img
-                              src="assets/icons/ico-love.png" width="30" height="30" class="d-inline-block align-center"
-                              alt="Favoritos"></button></small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                    <div class="card mb-4 shadow-sm">
-                      <img class="img-animal" src="assets/p3.jpg" alt="" title="" />
-                      <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-      
-                          <div class="card-title">Ruffo</div>
-      
-                          <small class="text-muted"><img src="assets/icons/ico-dog.png" width="70" height="70"
-                              class="d-inline-block align-right" alt="Dog"></small>
-                        </div>
-      
-                        <p class="card-text">Labrador</p>
-                        <p class="card-text">Macho</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="">
-                            <button type="button" class="btn btn-ver">Lo quiero conocer</button>
-                          </div>
-                          <small class="text-muted"><button type="button" class="btn btn-love"><img
-                                src="assets/icons/ico-love.png" width="30" height="30" class="d-inline-block align-center"
-                                alt="Favoritos"></button></small>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                      <div class="card mb-4 shadow-sm">
-                        <img class="img-animal" src="assets/g1.jpg" alt="" title="" />
-                        <div class="card-body">
-                          <div class="d-flex justify-content-between align-items-center">
-        
-                            <div class="card-title">Natasha</div>
-        
-                            <small class="text-muted"><img src="assets/icons/ico-cat.png" width="70" height="70"
-                                class="d-inline-block align-right" alt="Cat"></small>
-                          </div>
-        
-                          <p class="card-text">Labrador</p>
-                          <p class="card-text">Macho</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <div class="">
-                              <button type="button" class="btn btn-ver">Lo quiero conocer</button>
-                            </div>
-                            <small class="text-muted"><button type="button" class="btn btn-love"><img
-                                  src="assets/icons/ico-love.png" width="30" height="30" class="d-inline-block align-center"
-                                  alt="Favoritos"></button></small>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card mb-4 shadow-sm">
-                          <img class="img-animal" src="assets/p4.jpg" alt="" title="" />
-                          <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-          
-                              <div class="card-title">Bilú</div>
-          
-                              <small class="text-muted"><img src="assets/icons/ico-dog.png" width="70" height="70"
-                                  class="d-inline-block align-right" alt="Dog"></small>
-                            </div>
-          
-                            <p class="card-text">Labrador</p>
-                            <p class="card-text">Macho</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                              <div class="">
-                                <button type="button" class="btn btn-ver">Lo quiero conocer</button>
-                              </div>
-                              <small class="text-muted"><button type="button" class="btn btn-love"><img
-                                    src="assets/icons/ico-love.png" width="30" height="30" class="d-inline-block align-center"
-                                    alt="Favoritos"></button></small>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
           </div>
         </div>
-
+      </div>
     </section>
 
   </main>
 
 
-  <footer class="footer-bg">
+  <footer class="text-muted footer-bg">
     <div class="container">
       <p class="float-right">
         <a href="#"><img src="assets/icons/ico-top.png" width="50" height="50" class="d-inline-block align-center"
             alt="Subir"></a>
       </p>
-      <h2>No compres... adoptá! </h2>
-
+      <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+      <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a
+          href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">getting started guide</a>.</p>
     </div>
   </footer>
 
