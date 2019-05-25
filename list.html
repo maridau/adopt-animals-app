@@ -27,10 +27,9 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light navbar-bg">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="list.html">
         <img src="assets/icons/ico-logo.png" width="80" height="80" class="d-inline-block align-items-center" alt="">
         ADOPT ANIMALS
-
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +44,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="new-animal.html"><img src="assets/icons/ico-new.png" width="50" height="50"
-                class="d-inline-block align-center" alt="Nuevo animal">INGRESAR ANIMAL</a>
+                class="d-inline-block align-center" alt="Nuevo animal">REGISTRAR ANIMAL</a>
           </li>
 
           <li class="nav-item">
@@ -63,21 +62,17 @@
 
 
   <main>
-
     <section>
       <div class="container">
         <form class="">
 
           <h1>Encontrá tu mascota aquí</h1>
           <p class="parrafo-buscar">Adoptar no es comprar, no somos una tienda, adoptar es añadir un nuevo miembro a tu
-            familia, único, con su
-            físico, su personalidad y su historia.</p>
-
+            familia, <br>único, con su físico, su personalidad y su historia.</p>
 
           <fieldset class="fieldset-buscar">
             <div class="form-row">
               <div class="form-group col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <h2 class="" for="inlineFormInputGroup">¿Qué estás buscando?</h2><br>
                 <div class="form-check-inline">
                   <input class="form-check-input" type="radio" name="tipo-animal" id="tipo-animal" value="perro"
                     checked>
@@ -121,8 +116,8 @@
                   </optgroup>
                   <optgroup label="GATOS">
                     <option value="Persa">Persa</option>
-                    <option value="AzulRuso">Azul Ruso</option>
-                    <option value="MaineCoon">Maine Coon</option>
+                    <option value="AzulRuso">Bombay</option>
+                    <option value="MaineCoon">Azul Ruso</option>
                   </optgroup>
                 </select>
               </div>
@@ -143,7 +138,6 @@
                 </div>
               </div>
 
-
               <div class="form-group col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                 <label class="" for="inlineFormInputGroup"></label>
                 <select name="Edad" class="form-control mb-2" id="inlineFormInput">
@@ -154,6 +148,7 @@
                   <option value="5-10">5 a 10 años</option>
                 </select>
               </div>
+
               <div class="form-group col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                 <label class="" for="inlineFormInputGroup"></label>
                 <select name="Barrio" class="form-control mb-2" id="inlineFormInput">
@@ -177,16 +172,15 @@
                   <option value="VillaEspañola">Villa Española</option>
                 </select>
               </div>
+              </divd>
+
+              <div class="form-group col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+              </div>
             </div>
 
-            <div class="form-group col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <button type="submit" class="btn btn-primary">Buscar</button>
-            </div>
-      </div>
-      </fieldset>
-
-      </form>
-
+          </fieldset>
+        </form>
       </div>
     </section>
 
@@ -194,45 +188,193 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-
-            <div class="card card-container mb-4 shadow-sm">
-              <img class="card-foto" src="assets/p1.jpeg" alt="" title="" />
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="card-title">Jacinta</div>
-                  <small class="text-muted"><img src="assets/icons/ico-dog.png" width="50" height="50"
-                      class="d-inline-block align-right" alt="Dog"></small>
-                </div>
-                <div class="container-card-list-group">
-                  <ul class="card-list-group">
-                    <li class="card-list-group-item"><strong>Sabueso</strong></li>
-                    <li class="card-list-group-item">Hembra</li>
-                    <li class="card-list-group-item"><img src="">Colón</li>
-                  </ul>
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="">
-                    <a class="btn card-btn-ver" href="animal.html" role="button">Lo quiero conocer</a>
+            <a class="card-link" href="animal.html">
+              <div class="card card-container mb-4 shadow-sm">
+                <img class="card-foto" src="assets/p1.jpeg" alt="Jacinta" title="Perro en adopci&oacuten" />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="card-title">Jacinta</div>
+                    <small class="text-muted"><img src="assets/icons/ico-dog.png" width="50" height="50"
+                        class="d-inline-block align-right" alt="Dog"></small>
                   </div>
-                  <small class="text-muted"><a href=""><img src="assets/icons/ico-love.png" width="30" height="30"
-                        class="d-inline-block align-center" alt="Favoritos"></a></small>
+                  <div class="container-card-list-group">
+                    <ul class="card-list-group">
+                      <li class="card-list-group-item"><strong>Sabueso</strong></li>
+                      <li class="card-list-group-item">Hembra</li>
+                      <li class="card-list-group-item">Reducto</li>
+                    </ul>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <form>
+                      <button type="submit" class="btn btn-primary mb-2">Lo quiero conocer</button>
+                    </form>
+                    <small class="text-muted"><a href=""><img src="assets/icons/ico-love.png" width="30" height="30"
+                          class="d-inline-block align-center" alt="Favoritos"></a></small>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <a class="card-link" href="animal.html">
+              <div class="card card-container mb-4 shadow-sm">
+                <img class="card-foto" src="assets/g1.jpg" alt="F&eacutelix" title="Gato en adopci&oacuten" />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="card-title">F&eacutelix</div>
+                    <small class="text-muted"><img src="assets/icons/ico-cat.png" width="50" height="50"
+                        class="d-inline-block align-right" alt="Cat"></small>
+                  </div>
+                  <div class="container-card-list-group">
+                    <ul class="card-list-group">
+                      <li class="card-list-group-item"><strong>Bombay</strong></li>
+                      <li class="card-list-group-item">Macho</li>
+                      <li class="card-list-group-item">Col&oacuten</li>
+                    </ul>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <form>
+                      <button type="submit" class="btn btn-primary mb-2">Lo quiero conocer</button>
+                    </form>
+                    <small class="text-muted"><a href=""><img src="assets/icons/ico-love.png" width="30" height="30"
+                          class="d-inline-block align-center" alt="Favoritos"></a></small>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <a class="card-link" href="animal.html">
+              <div class="card card-container mb-4 shadow-sm">
+                <img class="card-foto" src="assets/p2.jpg" alt="Chispas" title="Perro en adopci&oacuten" />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="card-title">Chispas</div>
+                    <small class="text-muted"><img src="assets/icons/ico-dog.png" width="50" height="50"
+                        class="d-inline-block align-right" alt="Dog"></small>
+                  </div>
+                  <div class="container-card-list-group">
+                    <ul class="card-list-group">
+                      <li class="card-list-group-item"><strong>Labrador</strong></li>
+                      <li class="card-list-group-item">Macho</li>
+                      <li class="card-list-group-item"><img src="">La Blanqueada</li>
+                    </ul>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <form>
+                      <button type="submit" class="btn btn-primary mb-2">Lo quiero conocer</button>
+                    </form>
+                    <small class="text-muted"><a href=""><img src="assets/icons/ico-love.png" width="30" height="30"
+                          class="d-inline-block align-center" alt="Favoritos"></a></small>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <a class="card-link" href="animal.html">
+              <div class="card card-container mb-4 shadow-sm">
+                <img class="card-foto" src="assets/g2.jpg" alt="Goldie" title="Perro en adopci&oacuten" />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="card-title">Goldie</div>
+                    <small class="text-muted"><img src="assets/icons/ico-cat.png" width="50" height="50"
+                        class="d-inline-block align-right" alt="Cat"></small>
+                  </div>
+                  <div class="container-card-list-group">
+                    <ul class="card-list-group">
+                      <li class="card-list-group-item"><strong>Persa amarillo</strong></li>
+                      <li class="card-list-group-item">Hembra</li>
+                      <li class="card-list-group-item">Malv&iacuten</li>
+                    </ul>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <form>
+                      <button type="submit" class="btn btn-primary mb-2">Lo quiero conocer</button>
+                    </form>
+                    <small class="text-muted"><a href=""><img src="assets/icons/ico-love.png" width="30" height="30"
+                          class="d-inline-block align-center" alt="Favoritos"></a></small>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <a class="card-link" href="animal.html">
+                <div class="card card-container mb-4 shadow-sm">
+                  <img class="card-foto" src="assets/p3.jpg" alt="Bandido" title="Perro en adopci&oacuten" />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="card-title">Bandido</div>
+                      <small class="text-muted"><img src="assets/icons/ico-dog.png" width="50" height="50"
+                          class="d-inline-block align-right" alt="Dog"></small>
+                    </div>
+                    <div class="container-card-list-group">
+                      <ul class="card-list-group">
+                        <li class="card-list-group-item"><strong>Pastor alem&aacuten</strong></li>
+                        <li class="card-list-group-item">Macho</li>
+                        <li class="card-list-group-item">Palermo</li>
+                      </ul>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <form>
+                        <button type="submit" class="btn btn-primary mb-2">Lo quiero conocer</button>
+                      </form>
+                      <small class="text-muted"><a href=""><img src="assets/icons/ico-love.png" width="30" height="30"
+                            class="d-inline-block align-center" alt="Favoritos"></a></small>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <a class="card-link" href="animal.html">
+                  <div class="card card-container mb-4 shadow-sm">
+                    <img class="card-foto" src="assets/p4.jpg" alt="Cookie" title="Perro en adopci&oacuten" />
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="card-title">Cookie</div>
+                        <small class="text-muted"><img src="assets/icons/ico-dog.png" width="50" height="50"
+                            class="d-inline-block align-right" alt="Dog"></small>
+                      </div>
+                      <div class="container-card-list-group">
+                        <ul class="card-list-group">
+                          <li class="card-list-group-item"><strong>Labrador negro</strong></li>
+                          <li class="card-list-group-item">Hembra</li>
+                          <li class="card-list-group-item">Sayago</li>
+                        </ul>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <form>
+                          <button type="submit" class="btn btn-primary mb-2">Lo quiero conocer</button>
+                        </form>
+                        <small class="text-muted"><a href=""><img src="assets/icons/ico-love.png" width="30" height="30"
+                              class="d-inline-block align-center" alt="Favoritos"></a></small>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
         </div>
       </div>
       </div>
+
     </section>
   </main>
 
 
   <footer class="footer-bg">
     <div class="container">
-      <div class="float-right">
+      <p class="float-right">
         <a href="#"><img src="assets/icons/ico-top.png" width="50" height="50" class="d-inline-block align-center"
             alt="Subir"></a>
-      </div>
+      </p>
       <h2>No compres... adoptá! </h2>
     </div>
   </footer>
