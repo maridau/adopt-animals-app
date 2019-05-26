@@ -14,3 +14,5 @@ En animal.html agregué una sección de "También te pueden interesar..." que so
 Utilicé una tipografía de googlefonts. 
 Al principio (sin caché) no siempre la carga, por lo que con F5 se vería mejor :)
 
+En las "cards" se accede al animal por el link. 
+Dejé el botón "Lo quiero conocer" ya que va a tener funcionalidad en una versión posterior, pero actualmente igual que el resto de los botones carece de funcionalidad.
