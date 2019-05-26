@@ -1,5 +1,6 @@
 
 
+
 Detalle de las opciones del menú y sus correspondientes páginas html:
 
 - Animales para adopción: list.html // Buscador y catálogo
